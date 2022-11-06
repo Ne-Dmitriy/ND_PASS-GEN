@@ -1,0 +1,49 @@
+* {
+	cursor: default;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box; 
+	font-family: "Open Sans", sans-serif;
+	color: #1f2027;    
+} 
+
+body {
+	background-color: #e5eefe;  
+}
+
+input {
+	font-family: "Open Sans", sans-serif; 
+	font-weight: 600; 
+}
+
+.container {
+	margin: 0 auto; 
+}
+
+.main {
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center; 
+	height: 100vh; 
+} 
+
+.password {
+	padding: 8px; 
+	margin: 8px; 
+	caret-color: transparent; 
+	
+}
+
+.password_button {
+	padding: 8px; 
+	margin: 2px;
+	background-color: #8a97e3;   
+	color: #e5eefe; 
+	border: none; 
+	border-radius: 2px; 
+} 
+
+.gen_but {
+	background-color: #7984c4;  
+}
